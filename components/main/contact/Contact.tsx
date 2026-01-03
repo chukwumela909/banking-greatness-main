@@ -124,7 +124,7 @@ export default function Contact() {
                     Hotline
                   </div>
                   <div className="second font-sans text-neutral-800 text-sm">
-                    +1 (254) 5477
+                    +1 (509) 360-943
                   </div>
                 </div>
               </div>
@@ -156,7 +156,7 @@ export default function Contact() {
                     Address
                   </div>
                   <div className="second font-sans text-neutral-800 text-sm">
-                    11128 SE Stanley Ave, Milwaukie, OR 97222
+                    4838 Borusan Pkwy, Baytown, TX 77523
                   </div>
                 </div>
               </div>
