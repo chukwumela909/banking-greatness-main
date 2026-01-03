@@ -92,7 +92,7 @@ export default function Contact() {
                     Email
                   </div>
                   <div className="second  text-neutral-800 text-sm">
-                    Support@capitalnexusonlinex.site
+                    support@capitalnexusfinace.com
                   </div>
                 </div>
               </div>{" "}

@@ -30,53 +30,9 @@ export default function Support() {
       icon: (
         <FontAwesomeIcon icon={faWhatsapp} className="text-green-500 w-5 h-5" />
       ),
-      link: "https://wa.me/1234567890",
+      link: "https://wa.me/12489349277",
       button: "bg-green-500",
       cta: "Chat on WhatsApp",
-    },
-    {
-      name: "Telegram",
-      className: "bg-cyan-500/5 text-cyan-500 border border-cyan-500/10",
-      desc: "Chat with our live team on this platform and get attended to immediately here on Telegram",
-      button: "bg-cyan-500",
-      icon: (
-        <FontAwesomeIcon icon={faTelegram} className="text-cyan-500 w-5 h-5" />
-      ),
-      link: "https://t.me/capitalnexusonlinesupport",
-      cta: "Chat on Telegram",
-    },
-    {
-      name: "Email",
-      className: "bg-red-500/5 text-red-500 border border-red-500/10",
-      desc: "Reach out to use via email, send us an email about whatever complaint and we'll get back immediately",
-      icon: (
-        <FontAwesomeIcon icon={faEnvelope} className="text-red-500 w-5 h-5" />
-      ),
-      link: "mailto:wilsonGroup@usa.com",
-      button: "bg-red-500",
-      cta: "Send an email",
-    },
-    {
-      name: "Facebook",
-      className: "bg-blue-500/5 text-blue-500 border border-blue-500/10",
-      desc: "Connect with us on Facebook for updates and support",
-      icon: (
-        <FontAwesomeIcon icon={faFacebookF} className="text-blue-500 w-5 h-5" />
-      ),
-      link: "https://www.facebook.com/profile.php?id=100092344946573&mibextid=ZbWKwL",
-      button: "bg-blue-500",
-      cta: "Visit Facebook Page",
-    },
-    {
-      name: "Twitter",
-      className: "bg-sky-500/5 text-sky-500 border border-sky-500/10",
-      desc: "Follow us on Twitter for the latest news and support",
-      icon: (
-        <FontAwesomeIcon icon={faTwitter} className="text-sky-500 w-5 h-5" />
-      ),
-      link: "https://x.com/capitalnexusonline_",
-      button: "bg-sky-500",
-      cta: "Follow on Twitter",
     },
     {
       name: "Phone",

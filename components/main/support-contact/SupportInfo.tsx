@@ -56,7 +56,7 @@ export default function SupportInfo() {
               Email
             </div>
             <div className="second  text-neutral-500 font-medium text-sm">
-              Support@capitalnexusonlinex.site
+              support@capitalnexusfinace.com
             </div>
           </div>
         </div>{" "}
@@ -82,7 +82,7 @@ export default function SupportInfo() {
               Hotline
             </div>
             <div className="second font-sans text-neutral-500 font-medium text-sm">
-              +1(678)7192288
+              +1 (509) 360-943
             </div>
           </div>
         </div>
@@ -108,7 +108,7 @@ export default function SupportInfo() {
               Address
             </div>
             <div className="second font-sans text-neutral-500 font-medium text-sm">
-              9101 SE Clinton ST Portland OR 97266-1439
+              4838 Borusan Pkwy, Baytown, TX 77523
             </div>
           </div>
         </div>

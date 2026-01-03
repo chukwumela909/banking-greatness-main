@@ -7,6 +7,7 @@ import { SignUpProvider } from "@/context/signUpFormContext";
 import { LoginProvider } from "@/context/loginFormContext";
 import { Toaster } from "@/components/ui/sonner";
 import { ThemeProvider } from "@/components/theme-provider";
+import Script from "next/script";
 
 const inter = Raleway({
   subsets: ["latin"],
@@ -42,6 +43,24 @@ export default async function RootLayout({
             </ColorProvider>
           </LoginProvider>
         </SignUpProvider>
+
+        {/* Smartsupp Live Chat */}
+        <Script
+          id="smartsupp-chat"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+              var _smartsupp = _smartsupp || {};
+              _smartsupp.key = 'e9f8564ccc5d9a36cc53362e713832483c3f9109';
+              window.smartsupp||(function(d) {
+                var s,c,o=smartsupp=function(){ o._.push(arguments)};o._=[];
+                s=d.getElementsByTagName('script')[0];c=d.createElement('script');
+                c.type='text/javascript';c.charset='utf-8';c.async=true;
+                c.src='https://www.smartsuppchat.com/loader.js?';s.parentNode.insertBefore(c,s);
+              })(document);
+            `,
+          }}
+        />
       </body>
     </html>
   );
